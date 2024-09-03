@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "amsterdam";
+    src: url("../assets/fonts/amsterdam/NewAmsterdam-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "playfair";
+    src: url("../assets/fonts/static/PlayfairDisplay-Regular.ttf") format("truetype");
+}
+
+
+*{
+    box-sizing: border-box;
+    font-family: "playfair" !important;
+    color: white !important;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    position: sticky  !important;
+    top: 0 !important;
+    z-index: 1000 !important;
+}
+
+.header{
+    align-items: center !important;
+    background: rgba(18, 18, 18, 0.46)!important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 30px rgba(158, 158, 158, 0.2) !important; 
+    backdrop-filter: blur(9.3px) !important;
+    -webkit-backdrop-filter: blur(9.3px) !important;
+    border: 1px solid rgba(66 ,66, 66, 0.31) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+
+}
+
+.nav-link{
+    font-family: "amsterdam" !important;
+    font-size: 24px !important;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.navbar .nav-link.active {
+    color: rgba(131, 118, 118, 0.308) !important; 
+    background-color: transparent !important;
+}
+
+.about-me{
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+#local-time{
+    color: white;
+}
+
+.btn-custom {
+    background-color: black !important; 
+    color: white !important; 
+    border: 2px solid white !important; 
+}
+
+.btn-custom:hover {
+    background-color: transparent !important; 
+    color: rgba(131, 118, 118, 0.308) !important; 
+}
+
+
+.skills{
+    margin-top: 150px !important;
+}
+
+ .card-title{
+    font-weight: bolder !important;
+}
+
+ .card-btn{
+    color: black !important;
+    font-weight: bold !important;
+}
+
+#carouselExampleCaptions{
+    margin-top: 200px !important;
+}
+
+.carousel-item{
+    height: 500px;
+}
+
+.image-project{
+    height: 70%;
+}
+
+.contact{ 
+    margin-top: 100px;
+}
+
+.image-footer{
+    width: 50px;
+    height: 50px;
+}
+
+.collaboration{
+    margin-bottom: 50px !important;
+}
+
+.collabration-footer{
+    height: 400px !important;
+
+}
+
+.copyright{
+    padding-top: 20px;
+}
